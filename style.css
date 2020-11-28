@@ -1,0 +1,117 @@
+/* Palette:
+    #F45F36
+    #FBFAF5
+    #2E294E
+    #5AA9E6
+    #216869
+*/
+
+body {
+  background-color: #FBFAF5;
+}
+
+section {
+  height: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.fullviewport {
+  height: 100vh;
+  width: 100%;
+}
+
+#header {
+  color: #FBFAF5;
+  background: linear-gradient(rgba(251, 250, 245, 1), rgba(46, 41, 78, 0.90));
+  padding: 2% 2% 2% 1%;
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, sans-serif;
+  height: 15%;
+  border-bottom: 1px solid #FBFAF5;
+  position: sticky;
+  top: 0;
+  z-index: 0;
+}
+
+#logo {
+  width: 33%;
+  position: relative;
+  right: 1.5%;
+  padding-bottom: 3%;
+}
+
+#nav-tabs a {
+  color: #FBFAF5;
+  padding: 1% 3% 3% 1%;
+}
+
+#hero-page {
+  background-image: linear-gradient(rgba(46, 41, 78, 0.5), rgba(0, 0, 0, 0.9)), url('bio_background6.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#bio {
+  height: 17%;
+  width: 100%;
+  background-color: #FBFAF5;
+  border-bottom: 3px solid black;
+  display: flex;
+}
+
+#bio-text {
+  text-align: left;
+  width: 80%;
+}
+
+#profile-pic {
+    width: 10%;
+}
+
+#profile-pic-img {
+  height: 20%;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 100%;
+  float: left;
+  margin: 0 3% 0 3%;
+  margin-right: 2em;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#portfolio div {
+  height: 33.3%;
+  border-bottom: 3px solid black;
+  width: 100%;
+}
+
+.portfolio-item-1 {
+  background: linear-gradient(120deg, rgba(251, 250, 245, 1), rgba(244, 95, 54, 1));
+}
+
+.portfolio-item-2 {
+  background: linear-gradient(-120deg, rgba(244, 95, 54, 1), rgba(46, 41, 78, 1));
+}
+
+.portfolio-item-3 {
+  background: linear-gradient(120deg, rgba(46, 41, 78, 1), rgba(251, 250, 245, 1));
+}
